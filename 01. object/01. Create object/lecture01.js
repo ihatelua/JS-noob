@@ -10,7 +10,7 @@ function Car(model, speed, color){
     }
 }
 
-myCar = new Car("520d", 60, "red");
+myCar = new Car("520d", 60, "red"); 
 
 document.write("모델 : " + myCar.model + " 속도 : " + myCar.speed + "<br />");
 myCar.break();
