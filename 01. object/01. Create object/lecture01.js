@@ -7,7 +7,7 @@ function Car(model, speed, color){
     }
     this.accel = function(){ 
         this.speed += 10;
-    }
+    } 
 }
 
 myCar = new Car("520d", 60, "red");  
