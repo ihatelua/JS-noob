@@ -1,3 +1,4 @@
+  // 클로저함수 예제2
  function makeAdder(x) {
       var y = 1;
       return function(z) {
