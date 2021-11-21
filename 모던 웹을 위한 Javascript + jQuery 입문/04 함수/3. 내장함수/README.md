@@ -34,8 +34,7 @@
 
 <br>
 
-> __NOTE__
-<br>
+> __NOTE.__
 인코딩과 디코딩<br>
 인코딩은 문자를 컴퓨터에 저장하거나 통신에 사용할 목적으로 부호화하는 방법이다. 웹에서는 통신할 때 한글 같은 유니코드 문자가 오작동을 일으킬 수 있으므로 인코딩을 하고 다시 받을 때는 그 문자를 디코딩하여 받는다.<br>
 -  escape() <br>
@@ -83,13 +82,13 @@ number가 무한한 값인지 확인
 - isNaN<br>
 number가 NaN인지 확인<br><br>
 
-__infinity__
+###### __infinity__
 ```
 var number = 1 / 0;
 console.log(number); // infinity
 ```
 
-__NaN__
+###### __NaN__
 ```
 var number = 0 / 0
 console.log(number); // NaN

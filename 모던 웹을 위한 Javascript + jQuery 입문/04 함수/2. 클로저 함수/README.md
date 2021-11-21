@@ -56,7 +56,7 @@ add3 함수가 생성된 이후에도 상위함수인 makeAdder의 x에 접근�
 
 '메모리 누수'는 아래와 같은 방법들로 메모리를 해제할 수 있다.<br><br>
 
-__return 에 의한 클로저 메모리 해제__
+###### __return 에 의한 클로저 메모리 해제__
 ```
 let outer = (() => {
   let a = 1;
@@ -74,7 +74,7 @@ outer = null;
 <br>
 
 
-__setInterval에 의한 클로저의 메모리 해제__
+###### __setInterval에 의한 클로저의 메모리 해제__
 ```
 (function () {
   let a = 0;
@@ -92,7 +92,7 @@ __setInterval에 의한 클로저의 메모리 해제__
 
 <br>
 
-__eventListener에 의한 클로저의 메모리 해제__
+###### __eventListener에 의한 클로저의 메모리 해제__
 ```
 (function () {
   let count = 0;
