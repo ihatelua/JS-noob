@@ -94,3 +94,21 @@ var number = 0 / 0
 console.log(number); // NaN
 ```
 
+<br>
+
+## 6. 숫자 변환 함수
+- parseInt(String) : string을 정수로 바꾸어 준다.
+- parseFloat(String) : string을 유리수로 바꾸어준다.
+
+<br>
+
+### 6-1. Number 함수의 단점
+```
+var won = '1000원'
+var dollar = '1.5$'
+alert(won + " : " + dollar);    // NAN : NAN
+```
+Number 함수는 숫자로 바꿀 수 없으면 NAN으로 변환한다. 문자열이 섞여있다면 parseInt를 사용하는 것이 낫다.
+ 
+
+
