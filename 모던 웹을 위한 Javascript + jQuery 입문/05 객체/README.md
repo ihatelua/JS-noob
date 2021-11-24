@@ -156,7 +156,7 @@ name	홍길동
 
 <br><br>
 
-## 객체와 배열을 사용한 데이터 관리
+## 5. 객체와 배열을 사용한 데이터 관리
 ```
 function makeStudentInfo(name, age, korean, math, english){
   var result = {
