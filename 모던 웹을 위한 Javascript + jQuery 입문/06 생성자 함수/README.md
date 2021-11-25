@@ -103,47 +103,49 @@ console.log(rectangle.getArea());
 ```
 // 생성자 함수를 선언합니다.
 function Rectangle(w, h){
-    var width = w;
-    var height = h;
+  var width = w;
+  var height = h;
 
-    this.getWidth = function(){ return w; };
-    this.getHeight = function(){ return h; };
-    this.setWidth = function(w){
-        if(w < 0){
-            alert("길이는 음수 일 수 없습니다.");
-            return;
-        }else{
-            width = w;
-        }
-    };
-    this.setHeight = function(h){
-        if(h < 0){
-            alert("높이는 음수 일 수 없습니다.");
-            return;
-        }else{
-            height = h;
-        }
-    };
+  this.getWidth = function(){ return w; };
+  this.getHeight = function(){ return h; };
+  this.setWidth = function(w){
+      if(w < 0){
+          alert("길이는 음수 일 수 없습니다.");
+      }else{
+          width = w;
+      }
+  };
+  this.setHeight = function(h){
+      if(h < 0){
+          alert("높이는 음수 일 수 없습니다.");
+      }else{
+          height = h;
+      }
+  };
 }
 
+// 프로토타입을 추가해준다.
 Rectangle.prototype.getArea = function(){
-    return this.getWidth() * this.getHeight();
+  return this.getWidth() * this.getHeight();
 }
 
 
 // 생성자 함수를 선언합니다.
 function Square(length){
-    this.base = Rectangle;
-    this.base(length, length);
+  this.base = Rectangle;
+  this.base(length, length);
 }
 
+// Square 생성자 프로토타입에 Rectangle 프로토타입을 넣는다.
 Square.prototype = Rectangle.prototype;
 Square.prototype.constructor = Square;
 
 // 변수를 선언합니다.
-var rectangle = New Rectangle(5, 7);
-var square = New Square(5);
+var rectangle = new Rectangle(5, 2);
+var square = new Square(5);
 console.log(rectangle.getArea() + " : " + square.getArea());
 
-// ------???? 오류 ?
+/*
+10 : 25
+*/
 ```

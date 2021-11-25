@@ -36,6 +36,11 @@ Square.prototype = Rectangle.prototype;
 Square.prototype.constructor = Square;
 
 // 변수를 선언합니다.
-var rectangle = New Rectangle(5, 7);
-var square = New Square(5);
+var rectangle = new Rectangle(5, 2);
+var square = new Square(5);
 console.log(rectangle.getArea() + " : " + square.getArea());
+
+console.log(rectangle.getWidth())
+/*
+10 : 25
+*/
