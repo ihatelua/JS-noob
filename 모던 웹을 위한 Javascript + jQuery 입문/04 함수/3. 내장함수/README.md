@@ -53,7 +53,7 @@ UTF-8 인코딩과 같다. <br>
 - eval(String) <br>
 string을 자바스크립트 코드로 실행하는 함수이다.<br>
 
-```
+```javascript
 <script>
     var json = {
         "num1" : 2,
@@ -83,13 +83,13 @@ number가 무한한 값인지 확인
 number가 NaN인지 확인<br><br>
 
 ###### __infinity__
-```
+```javascript
 var number = 1 / 0;
 console.log(number); // infinity
 ```
 
 ###### __NaN__
-```
+```javascript
 var number = 0 / 0
 console.log(number); // NaN
 ```
@@ -103,7 +103,7 @@ console.log(number); // NaN
 <br>
 
 ### 6-1. Number 함수의 단점
-```
+```javascript
 var won = '1000원'
 var dollar = '1.5$'
 alert(won + " : " + dollar);    // NAN : NAN

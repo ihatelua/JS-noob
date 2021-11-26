@@ -4,7 +4,7 @@
 
 ## 1. 익명함수
 함수지만 이름이 없는 함수를 익명함수라고 부른다.
-```
+```javascript
 var 함수 = function(){}
 ```
 
@@ -12,7 +12,7 @@ var 함수 = function(){}
 
 ## 2. 가변 인자 함수
 가변 인자 함수는 매개변수의 개수가 변할 수 있는 함수이다. 매개변수를 선언하지 않아도 함수에는 기본적으로 가변 인자 함수(arguments) 라는 것을 가지고 있다.
-```
+```javascript
 <script>
     function sumAll(){
         alert(typeof (arguments) + " : " + arguments.length);
@@ -27,7 +27,7 @@ var 함수 = function(){}
 함수 내부에 함수를 선언할 수 있으며 함수외부에서는 내부함수를 사용할 수 없다.<br><br>
 
 ## 4. 함수를 리턴하는 함수
-```
+```javascript
 <script>
     // 함수를 생성한다.
     function returnFunction(){

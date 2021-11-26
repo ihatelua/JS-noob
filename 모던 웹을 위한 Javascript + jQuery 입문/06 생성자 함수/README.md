@@ -3,7 +3,7 @@
 <br>
 
 ## 1. 생성자 함수 개요
-```
+```javascript
 function Student(){
 
 }
@@ -18,7 +18,7 @@ Student는 생성자함수라고 부른다.
 Instanceof 키워드<br>
 Student 생성자 함수로 student 객체를 생성할때, 생성자 함수로 만들어진 객체를 인스턴스라고 부른다고했다.<br>
 이 객체가 어떠한 생성자 함수로 생성됐는지 확인할 때는 instanceof 키워드를 사용하여 확인한다.<br>
-```
+```javascript
 function Student(){
 
 }
@@ -43,7 +43,7 @@ false
 |![ex_screenshot](1.png)|![ex_screenshot](2.png)|
 
 기존 객체 구조는 모든 객체가 다른 값을 가지지만 메서드는 모두 다른 값을 갖는다. 각 객체를 생성할 때마다 동일한 함수를 계속 생성한다는 것이다. 만약 데이터를 1000개를 만든다고 한다면 그 동일한 함수도 1000개를 만들어야 한다는 것이다. 메모리를 쓸데없이 낭비해서 매우 비효울적이다. 그 문제를 해결하기위해 프로토타입이라는걸 사용하면된다. 각 객체마다 가진 메서드를 프로토타입이라는 공간으로 옮기면 메서드를 하나만 생성해도 모든 객체가 해당 메서드를 사용할 수 있다. 따라서 생성자함수를 객체로 만들때 생성자 함수 내부에 속성만 넣으면된다.
-```
+```javascript
 function Student(name, korean, math, english, science){
     this.이름 = name;
     this.국어 = korean;
@@ -60,7 +60,7 @@ function Student(name, korean, math, english, science){
 <br><br>
 
 ## 3. 캡슐화
-```
+```javascript
 function Rectangle(){
     var width = 0;
     var height = 0;
@@ -100,7 +100,7 @@ console.log(rectangle.getArea());
 <br><br>
 
 ## 4. 상속
-```
+```javascript
 // 생성자 함수를 선언합니다.
 function Rectangle(w, h){
   var width = w;

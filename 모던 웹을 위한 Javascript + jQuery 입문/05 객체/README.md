@@ -7,7 +7,7 @@ Map과 유사하다. 다른점은 객체 안에는 함수든 기본적인 자료
 
 
 ## 2. 객체와 반복문
-```
+```javascript
 var product = {
     name : "Microsoft Visual Studio 2012 Ultimate",
     price : '15,000,000원',
@@ -30,7 +30,7 @@ for in 반복문에 객체를 넣으면 객체의 요소 개수만큼 반복문�
 ## 3. 객체 관련 키워드
 ### 3-1. in 키워드
 in키워드를 for 키워드와 별도로 사용하면 해당 키가 객체 안에 있는지 확인할 수 있다.
-```
+```javascript
 var output = "";
 var product = {
     name : "Microsoft Visual Studio 2012 Ultimate",
@@ -49,7 +49,7 @@ output += "'가격' in product: " + ('price' in product) + "\n";
 
 ### 3-1. with 키워드
 with 키워드는 복잡하게 사용해야 하는 코드를 짧게 줄여주는 키워드이다.
-```
+```javascript
 var product = {
   name : "Microsoft Visual Studio 2012 Ultimate",
   price : '15,000,000원',
@@ -77,7 +77,7 @@ console.log(output);
  __NOTE.__
 with 키워드 사용시 변수 이름 충돌<br>
 만약 with 키워드를 사용하는 객체의 속성 이름과 외부 변수의 이름이 같으면 충돌이 발생한다. 이를 해결하기위해 window객체를 사용하면된다.<br>
-```
+```javascript
 var output = "";
 with(student){
     window.output += "이름 : " + 이름 + "\n";
@@ -91,7 +91,7 @@ window 객체는 자바스크립트 최상위에 위치한 객체이다. 자바�
 ## 4. 객체의 속성 추가와 제거
 ### 4-1 속성추가
 > 동적으로 속성 추가
-```
+```javascript
 var student = {};
 student.name = "홍길동";
 student.age = "25";
@@ -100,7 +100,7 @@ student.age = "25";
 <br>
 
 > 동적으로 메서드 추가
-```
+```javascript
 var student = {};
 student.name = "홍길동";
 student.age = "25";
@@ -124,7 +124,8 @@ age	25
 ```
 <br><br>
 ### 4-2 속성 제거
-```
+
+```javascript
 var student = {};
 student.name = "홍길동";
 student.age = "25";
@@ -157,7 +158,7 @@ name	홍길동
 <br><br>
 
 ## 5. 객체와 배열을 사용한 데이터 관리
-```
+```javascript
 function makeStudentInfo(name, age, korean, math, english){
   var result = {
       이름 : name,
