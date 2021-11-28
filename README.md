@@ -3,7 +3,7 @@
 # BEGINNERS
 :keyboard: 모던 웹을 위한 Javascript + jQuery 입문 <br/>
 - [x] [01] 기본문법
-- ~~[x] [02] 조건문~~
+- [x] ~~[02] 조건문~~
 - [x] [03] 반복문
 - [x] [04] 함수
 - [x] [05] 객체
@@ -17,9 +17,9 @@
 - [ ] [13] jQuery 문서 객체 선택과 탐색
 - [ ] [14] jQuery 문서 객체 조작
 - [ ] [15] jQuery 이벤트
-- ~~[x] [16] jQuery 이미지 슬라이더~~
-- ~~[x] [17] jQuery 플러그인~~
-- ~~[x] [18] jQuery 플러그인 제작~~
+- [x] ~~[16] jQuery 이미지 슬라이더~~
+- [x] ~~[17] jQuery 플러그인~~
+- [x] ~~[18] jQuery 플러그인 제작~~
 - [ ] [19] Ajax node.js 기본
 - [ ] [20] XMLHttpRequest
 - [ ] [21] jQuery Ajax
