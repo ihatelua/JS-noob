@@ -111,19 +111,13 @@
 - [ ]  07 조금 더 나아가기
 <br><br>
 
-## PART2 jQuery
-<br>
-
+## ~~PART2 jQuery~~
+~~**Part 13 jQuery 기본**~~<br>
 ~~**Part 13 jQuery 문서 객체 선택과 탐색**~~<br>
-
 ~~**Part 14 jQuery 문서 객체 조작**~~<br>
-
 ~~**Part 15 jQuery 이벤트**~~<br>
-
 ~~**Part 16 jQuery 이미지 슬라이더**~~<br>
-
 ~~**Part 17 jQuery 플러그인**~~<br>
-
 ~~**Part 18 jQuery 플러그인 제작**~~<br>
 <br>
 ## PART3 AJAX
