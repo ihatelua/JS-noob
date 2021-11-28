@@ -126,11 +126,11 @@
 
 **Part 20 XMLHttpRequest**<br>
 
-**Part 21 jQuery Ajax**<br>
+~~**Part 21 jQuery Ajax**~~<br>
 
-**Part 22 크로스 도메인**<br>
+~~**Part 22 크로스 도메인**~~<br>
 
-**Part 23 Reverse Ajax**<br>
+~~**Part 23 Reverse Ajax**~~<br>
 
 <br>
 

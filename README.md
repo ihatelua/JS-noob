@@ -22,9 +22,9 @@
 - [x] ~~[18] jQuery 플러그인 제작~~
 - [ ] [19] Ajax node.js 기본
 - [ ] [20] XMLHttpRequest
-- [ ] [21] jQuery Ajax
-- [ ] [22] 크로스 도메인
-- [ ] [23] Reverse Ajax
+- [x] ~~[21] jQuery Ajax~~
+- [x] ~~[22] 크로스 도메인~~
+- [x] ~~[23] Reverse Ajax~~
 - [ ] [24] 검사
 - [ ] [25] 정규표현식
 - [ ] [26] 쿠키와 저장소
