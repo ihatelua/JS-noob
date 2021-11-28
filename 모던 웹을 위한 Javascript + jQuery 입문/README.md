@@ -176,6 +176,9 @@
 
 **Part 23 Reverse Ajax**<br>
 
+<br>
+
+## PART4 기타
 **Part 24 검사**<br>
 
 **Part 25 정규표현식**<br>
